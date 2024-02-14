@@ -11,7 +11,7 @@ Para conectarte a las instancias EC2 de AWS desde tu nodo principal, necesitas u
 chmod 400 vockey.pem
 ```
 
-Luego, puedes conectarte a una instancia con el comando SSH, usando el usuario adecuado (en nuestro caso, ubuntu) y la dirección IP pública de la instancia:
+Luego, puedes conectarte a una instancia con el comando SSH, usando el usuario adecuado y la dirección IP pública de la instancia:
 
 ```
 ssh -i vockey.pem ubuntu@18.206.58.248
