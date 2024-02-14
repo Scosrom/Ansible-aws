@@ -2,6 +2,8 @@
 
 ![Captura desde 2024-02-14 13-00-26](https://github.com/Scosrom/Ansible-aws/assets/114906778/9087263d-4e83-420f-bfb0-0dab177f21b5)
 
+<Code> Debian </Code> 
+
 En esta práctica, vamos a instalar una pila LAMP (Linux, Apache, MySQL/MariaDB, PHP) en dos instancias de AWS utilizando Ansible. Esto nos permitirá configurar rápidamente un entorno de desarrollo web en nuestras máquinas virtuales.
 
 ### Paso 1: Preparación del entorno
@@ -122,7 +124,7 @@ rm -r /var/www/html/index.html
 ```
 Este script instala MariaDB, crea una base de datos y un usuario, instala phpMyAdmin, Git, clona un proyecto PHP y copia los archivos al directorio del servidor web.
 
-* Este script esta sacado del repositorio: https://github.com/Scosrom/Implantacion_web/ y adaptado a esta practica.
+* Este script esta sacado del repositorio: https://github.com/Scosrom/Implantacion_web/blob/main/apm.sh y adaptado a esta practica.
 
 ### Paso 5: Ejecución del playbook
 
