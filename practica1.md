@@ -121,7 +121,8 @@ systemctl restart apache2
 rm -r /var/www/html/index.html
 ```
 Este script instala MariaDB, crea una base de datos y un usuario, instala phpMyAdmin, Git, clona un proyecto PHP y copia los archivos al directorio del servidor web.
-Comando:
+
+* Este script esta sacado del repositorio: https://github.com/Scosrom/Implantacion_web/ y adaptado a esta practica.
 
 ### Paso 5: Ejecución del playbook
 
