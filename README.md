@@ -76,7 +76,7 @@ export ANSIBLE_HOST_KEY_CHECKING=False
 Y ya podremos ejecutar:
 
 ```
-ansible-playbook -i inventario install_lamp.yaml --user ubuntu --private-key /home/josejuan/Lab/vockey.pem
+ansible-playbook -i inventario install_lamp.yaml --user ubuntu --private-key /home/2asir/Escritorio/miclave.pem
 ```
 
 ### Solucion 2: Configurar SSH para que acepte por defecto el fingerprint de las nuevas instancias. 
@@ -87,7 +87,7 @@ nuevas instancias a las que vamos a conectarnos.
 EJEMPLO:
 
 ```
-ansible-playbook -i inventario install_lamp.yaml --user ubuntu --private-key /home/josejuan/Lab/vockey.pem --ssh-common
+ansible-playbook -i inventario install_lamp.yaml --user ubuntu --private-key /home/2asir/Escritorio/miclave.pem --ssh-common
 -args '-o StrictHostKeyChecking=accept-new'
 ```
 
@@ -102,15 +102,15 @@ SSH y aceptar por defecto el fingerprint de las nuevas instancias a las que vamo
 44.206.245.114
 
 [all:vars]
-ansible_user=ubuntu
-ansible_ssh_private_key_file=/home/josejuan/Lab/vockey.pem
+ansible_user=admin
+ansible_ssh_private_key_file=/home/2asir/Escritorio/miclave.pem
 ansible_ssh_common_args='-o StrictHostKeyChecking=accept-new'
 ```
 
 Comando:
 
 ```
-ansible all -i <ruta_al_inventario> -m ping
+ansible all -i inventario -m ping
 ```
 
 ## Practica instalación Lamp:
