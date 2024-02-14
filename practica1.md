@@ -1,5 +1,8 @@
 ## Practica instalación Lamp:
 
+![Captura desde 2024-02-14 13-00-26](https://github.com/Scosrom/Ansible-aws/assets/114906778/9087263d-4e83-420f-bfb0-0dab177f21b5)
+
+
 Archivo inventario: 
 
 ```
