@@ -211,7 +211,7 @@ rm -r /var/www/html/index.html
 
 Cuando se establece DEBIAN_FRONTEND=noninteractive, se configura el frontend de Debian para que funcione en modo no interactivo. Esto significa que el sistema no espera ninguna entrada del usuario durante la instalación de los paquetes, sino que utiliza la configuración predeterminada o las opciones por defecto para todos los diálogos o mensajes de configuración que puedan aparecer durante el proceso de instalación.
 
-En resumen, al establecer DEBIAN_FRONTEND=noninteractive, se asegura que las instalaciones de paquetes en sistemas Debian se realicen de forma automática, sin necesidad de intervención manual por parte del usuario, lo que es útil en escenarios de automatización o instalación masiva de software.
+En resumen, al establecer DEBIAN_FRONTEND=noninteractive, se asegura que las instalaciones de paquetes en sistemas Debian se realicen de forma automática, sin necesidad de intervención manual por parte del usuario, lo que es útil en escenarios de automatización o instalación masiva de software.**
 
 
 
