@@ -116,7 +116,9 @@ Comando:
 ansible all -i inventario -m ping
 ```
 
+## Practicas
 
+1. [Practica 1- Pila lamp](practica1.md)
 
 
 
