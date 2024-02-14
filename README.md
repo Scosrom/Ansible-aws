@@ -107,7 +107,7 @@ ansible_ssh_private_key_file=/home/josejuan/Lab/vockey.pem
 ansible_ssh_common_args='-o StrictHostKeyChecking=accept-new'
 ```
 
-## Practica instalación pila lan:
+## Practica instalación Lamp:
 
 Archivo inventario: 
 
