@@ -1,5 +1,8 @@
 # Ansible-aws
 
+![image](https://github.com/Scosrom/Ansible-aws/assets/114906778/506333d7-276f-4aad-92c4-02bc95fa261a)
+
+
 ### 1. Conexión SSH con instancias EC2 de AWS:
 
 Para conectarte a las instancias EC2 de AWS desde tu nodo principal, necesitas una clave SSH privada proporcionada por AWS, generalmente llamada vockey.pem. Antes de usarla, asegúrate de darle permisos de solo lectura al propietario con el comando:
