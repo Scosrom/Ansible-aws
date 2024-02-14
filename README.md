@@ -21,8 +21,9 @@ ssh -i vockey.pem ubuntu@18.206.58.248
 
 Puedes especificar el usuario y la clave privada SSH de varias maneras en Ansible:
 
-2.1. Desde la línea de comandos usando los parámetros **--user** y **--private-key**.
-2.2. En el archivo de inventario usando las variables **ansible_user** y **ansible_ssh_private_key_file**.
+- 2.1. Desde la línea de comandos usando los parámetros **--user** y **--private-key**.
+
+- 2.2. En el archivo de inventario usando las variables **ansible_user** y **ansible_ssh_private_key_file**.
 
 
 Ejemplo desde la linea de coomandos:
