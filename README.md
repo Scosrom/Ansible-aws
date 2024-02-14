@@ -122,7 +122,7 @@ ansible_ssh_private_key_file=/home/2asir/Escritorio/notepierdas.pem
 ansible_ssh_common_args='-o StrictHostKeyChecking=accept-new'
 ```
 
-Archivo yaml:
+Archivo install_lamp.yaml:
 
 ```
 ---
@@ -163,7 +163,7 @@ Archivo yaml:
       script: implantacion_script.sh
 ```
 
-Script:
+implantacion_script.sh:
 
 ```
 #!/bin/bash
@@ -206,6 +206,12 @@ systemctl restart apache2
 
 # Delete index
 rm -r /var/www/html/index.html
+```
+
+Comando:
+
+```
+ansible-playbook -i inventario install_lamp.yaml
 ```
 La variable de entorno DEBIAN_FRONTEND se utiliza en entornos donde se realiza la instalación de paquetes Debian de forma automatizada, como en scripts de instalación o en la ejecución de herramientas de gestión de paquetes como apt-get.
 
